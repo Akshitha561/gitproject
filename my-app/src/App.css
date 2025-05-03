@@ -1,0 +1,123 @@
+
+.page {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  
+  width: 320px;
+  background-color: #150734;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.profile-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #c9c9f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #7c3aed;
+}
+
+
+.name {
+  margin-bottom: 5px;
+  font-size: 30px;
+  margin-right: 70px;
+}
+
+.balance-text {
+  font-size: 14px;
+  color: #999;
+  margin-right: auto;
+}
+
+.balance-amount {
+  font-size: 36px;
+  margin: 10px 0;
+  margin-left: 50px;
+}
+
+.rupee-text {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #999;
+}
+
+.withdraw-title {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+  
+
+.choose-sum-text {
+  justify-content: right;
+  display: flex;
+  margin-right: 50px;
+  margin-top:30px ;
+  font-size: 12px;
+  color: #999;
+  
+  
+  
+}
+
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  
+}
+
+.button-container button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #585076;
+}
+
+.button-container button:hover {
+  background-color: white;
+  color: #150734;
+}
+.container1{
+  display: flex;
+  margin-right: auto;
+
+  
+}
+.container2{
+  display: flex;
+  
+}
+
+.container3{
+  display: flex;
+  justify-content: start;
+  margin-right: auto;
+  align-items: start;
+
+  
+}
+  
