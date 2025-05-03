@@ -20,7 +20,7 @@ function App() {
         <div className="profile-circle">S</div>
 
        
-        <h2 className="name">Sony</h2>
+        <h2 className="name">sony</h2>
 
         </div>
         <div className="container2">
